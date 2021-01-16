@@ -21,7 +21,7 @@ public class DistanceAndDirectionCalculator {
 ```
 He thought it'll be a good idea to convert this to Object Oriented Programming. So he wrote a new implementation in package `org.oop`, he got 2 classes - 
 - `org.oop.DistanceAndDirectionCalculator`
-- `org.oop.Point`
+- `org.oop.DistanceAndDirectionCalculator`
 
 However, his trainer told him that what he did is not Object Oriented programming and asked Shivam to try again. 
 - Try to articulate problems with Shivam's OOP solution. (Write it somewhere and share it with your trainer)
