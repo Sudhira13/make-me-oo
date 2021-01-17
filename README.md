@@ -25,4 +25,11 @@ He thought it'll be a good idea to convert this to Object Oriented Programming. 
 
 However, his trainer told him that what he did is not Object Oriented programming and asked Shivam to try again. 
 - Try to articulate problems with Shivam's OOP solution. (Write it somewhere and share it with your trainer)
+  
+  Problems with Shivam's OOP solution :
+  - There were two classes uses, I thought the problem can be done with a single class.
+  - The Point class in Shivam's code had only getters and setters. When we declare fields in a class, it is better to have the behaviour of the fields in the same       class. In this case, it is breaking encapsulation by not using the fields x and y, only getters are used.
+  - The setters, although created are never used.
+  - Point class was not intent revealing. So, I used a single class called DistanceAndDirectionCalculator to calculate both distance and direction methods.
+  - I made both the distance and direction methods non-static because we don't have to use static when those behaviours are specific to objects. Objects are bound       to have their behaviours to themselves.
 - Fork the project and fix the design related problem with Shivam's OOP solution. Share that with your trainer too.
